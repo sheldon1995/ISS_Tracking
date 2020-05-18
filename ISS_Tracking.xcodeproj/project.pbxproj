@@ -3,27 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		978B2DF0817D55AD8438BEE6 /* Pods_ISS_Tracking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E89ECCC46882135FCEF65607 /* Pods_ISS_Tracking.framework */; };
 		9D4A8FF22472DBE400998DC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A8FF12472DBE400998DC4 /* AppDelegate.swift */; };
 		9D4A8FF42472DBE400998DC4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A8FF32472DBE400998DC4 /* SceneDelegate.swift */; };
-		9D4A8FF62472DBE400998DC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A8FF52472DBE400998DC4 /* ViewController.swift */; };
 		9D4A8FF92472DBE400998DC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4A8FF72472DBE400998DC4 /* Main.storyboard */; };
 		9D4A8FFB2472DBE800998DC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D4A8FFA2472DBE800998DC4 /* Assets.xcassets */; };
 		9D4A8FFE2472DBE800998DC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D4A8FFC2472DBE800998DC4 /* LaunchScreen.storyboard */; };
+		9D4A90072472DFAC00998DC4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A90062472DFAC00998DC4 /* Constant.swift */; };
+		9D4A900A2472E01400998DC4 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A90092472E01400998DC4 /* HomeVC.swift */; };
+		9D4A900C2472E28500998DC4 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A900B2472E28500998DC4 /* APIService.swift */; };
+		9D4A900F2472E2D900998DC4 /* ISS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A900E2472E2D900998DC4 /* ISS.swift */; };
+		9D4A90112472E2F600998DC4 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A90102472E2F600998DC4 /* Response.swift */; };
+		9D4A90132472E5AB00998DC4 /* LaititudeLongitudeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A90122472E5AB00998DC4 /* LaititudeLongitudeVC.swift */; };
+		9D4A90152472E6E300998DC4 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A90142472E6E300998DC4 /* ResultVC.swift */; };
+		9D4A90172472E6FB00998DC4 /* CityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A90162472E6FB00998DC4 /* CityVC.swift */; };
+		9D4A90192472E8F400998DC4 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A90182472E8F300998DC4 /* Location.swift */; };
+		9D4A901F2472E95D00998DC4 /* ResponseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A901D2472E95D00998DC4 /* ResponseCell.swift */; };
+		9D4A90202472E95D00998DC4 /* ResponseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4A901E2472E95D00998DC4 /* ResponseCell.xib */; };
+		9D4A90222472EAEB00998DC4 /* LocationRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A90212472EAEB00998DC4 /* LocationRealm.swift */; };
+		9D4A90272472EB5500998DC4 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4A90252472EB5500998DC4 /* HistoryCell.swift */; };
+		9D4A90282472EB5500998DC4 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D4A90262472EB5500998DC4 /* HistoryCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		65CB41697FB9D9C762D07AEE /* Pods-ISS_Tracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISS_Tracking.release.xcconfig"; path = "Target Support Files/Pods-ISS_Tracking/Pods-ISS_Tracking.release.xcconfig"; sourceTree = "<group>"; };
+		71FFAD529E95DB9AA45393DE /* Pods-ISS_Tracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISS_Tracking.debug.xcconfig"; path = "Target Support Files/Pods-ISS_Tracking/Pods-ISS_Tracking.debug.xcconfig"; sourceTree = "<group>"; };
 		9D4A8FEE2472DBE400998DC4 /* ISS_Tracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISS_Tracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4A8FF12472DBE400998DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D4A8FF32472DBE400998DC4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9D4A8FF52472DBE400998DC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D4A8FF82472DBE400998DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D4A8FFA2472DBE800998DC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D4A8FFD2472DBE800998DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D4A8FFF2472DBE800998DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D4A90062472DFAC00998DC4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		9D4A90092472E01400998DC4 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		9D4A900B2472E28500998DC4 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		9D4A900E2472E2D900998DC4 /* ISS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISS.swift; sourceTree = "<group>"; };
+		9D4A90102472E2F600998DC4 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		9D4A90122472E5AB00998DC4 /* LaititudeLongitudeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaititudeLongitudeVC.swift; sourceTree = "<group>"; };
+		9D4A90142472E6E300998DC4 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		9D4A90162472E6FB00998DC4 /* CityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityVC.swift; sourceTree = "<group>"; };
+		9D4A90182472E8F300998DC4 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		9D4A901D2472E95D00998DC4 /* ResponseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseCell.swift; sourceTree = "<group>"; };
+		9D4A901E2472E95D00998DC4 /* ResponseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResponseCell.xib; sourceTree = "<group>"; };
+		9D4A90212472EAEB00998DC4 /* LocationRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRealm.swift; sourceTree = "<group>"; };
+		9D4A90252472EB5500998DC4 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		9D4A90262472EB5500998DC4 /* HistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		E89ECCC46882135FCEF65607 /* Pods_ISS_Tracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISS_Tracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				978B2DF0817D55AD8438BEE6 /* Pods_ISS_Tracking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DFC32BFDC15AD422C5D3EEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E89ECCC46882135FCEF65607 /* Pods_ISS_Tracking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7658A8873AA721A5361A08FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71FFAD529E95DB9AA45393DE /* Pods-ISS_Tracking.debug.xcconfig */,
+				65CB41697FB9D9C762D07AEE /* Pods-ISS_Tracking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9D4A8FE52472DBE400998DC4 = {
 			isa = PBXGroup;
 			children = (
 				9D4A8FF02472DBE400998DC4 /* ISS_Tracking */,
 				9D4A8FEF2472DBE400998DC4 /* Products */,
+				7658A8873AA721A5361A08FA /* Pods */,
+				4DFC32BFDC15AD422C5D3EEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +106,60 @@
 		9D4A8FF02472DBE400998DC4 /* ISS_Tracking */ = {
 			isa = PBXGroup;
 			children = (
+				9D4A901C2472E93300998DC4 /* View */,
+				9D4A900D2472E2C500998DC4 /* Model */,
+				9D4A90082472DFFE00998DC4 /* Controller */,
+				9D4A90052472DF8C00998DC4 /* Utility */,
 				9D4A8FF12472DBE400998DC4 /* AppDelegate.swift */,
 				9D4A8FF32472DBE400998DC4 /* SceneDelegate.swift */,
-				9D4A8FF52472DBE400998DC4 /* ViewController.swift */,
-				9D4A8FF72472DBE400998DC4 /* Main.storyboard */,
 				9D4A8FFA2472DBE800998DC4 /* Assets.xcassets */,
 				9D4A8FFC2472DBE800998DC4 /* LaunchScreen.storyboard */,
 				9D4A8FFF2472DBE800998DC4 /* Info.plist */,
 			);
 			path = ISS_Tracking;
+			sourceTree = "<group>";
+		};
+		9D4A90052472DF8C00998DC4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9D4A90062472DFAC00998DC4 /* Constant.swift */,
+				9D4A900B2472E28500998DC4 /* APIService.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9D4A90082472DFFE00998DC4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9D4A90092472E01400998DC4 /* HomeVC.swift */,
+				9D4A90122472E5AB00998DC4 /* LaititudeLongitudeVC.swift */,
+				9D4A90142472E6E300998DC4 /* ResultVC.swift */,
+				9D4A90162472E6FB00998DC4 /* CityVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9D4A900D2472E2C500998DC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D4A900E2472E2D900998DC4 /* ISS.swift */,
+				9D4A90102472E2F600998DC4 /* Response.swift */,
+				9D4A90182472E8F300998DC4 /* Location.swift */,
+				9D4A90212472EAEB00998DC4 /* LocationRealm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D4A901C2472E93300998DC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D4A8FF72472DBE400998DC4 /* Main.storyboard */,
+				9D4A901D2472E95D00998DC4 /* ResponseCell.swift */,
+				9D4A901E2472E95D00998DC4 /* ResponseCell.xib */,
+				9D4A90252472EB5500998DC4 /* HistoryCell.swift */,
+				9D4A90262472EB5500998DC4 /* HistoryCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +169,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D4A90022472DBE800998DC4 /* Build configuration list for PBXNativeTarget "ISS_Tracking" */;
 			buildPhases = (
+				67D91BA334180D1FA00FADF0 /* [CP] Check Pods Manifest.lock */,
 				9D4A8FEA2472DBE400998DC4 /* Sources */,
 				9D4A8FEB2472DBE400998DC4 /* Frameworks */,
 				9D4A8FEC2472DBE400998DC4 /* Resources */,
+				E85D44F70C09BDF106C62DE4 /* [CP] Embed Pods Frameworks */,
+				11FE3112391A65733D354BF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +223,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4A90282472EB5500998DC4 /* HistoryCell.xib in Resources */,
+				9D4A90202472E95D00998DC4 /* ResponseCell.xib in Resources */,
 				9D4A8FFE2472DBE800998DC4 /* LaunchScreen.storyboard in Resources */,
 				9D4A8FFB2472DBE800998DC4 /* Assets.xcassets in Resources */,
 				9D4A8FF92472DBE400998DC4 /* Main.storyboard in Resources */,
@@ -133,14 +233,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11FE3112391A65733D354BF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ISS_Tracking/Pods-ISS_Tracking-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ISS_Tracking/Pods-ISS_Tracking-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ISS_Tracking/Pods-ISS_Tracking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D91BA334180D1FA00FADF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISS_Tracking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E85D44F70C09BDF106C62DE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ISS_Tracking/Pods-ISS_Tracking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ISS_Tracking/Pods-ISS_Tracking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ISS_Tracking/Pods-ISS_Tracking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9D4A8FEA2472DBE400998DC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D4A8FF62472DBE400998DC4 /* ViewController.swift in Sources */,
+				9D4A90112472E2F600998DC4 /* Response.swift in Sources */,
+				9D4A900A2472E01400998DC4 /* HomeVC.swift in Sources */,
+				9D4A90132472E5AB00998DC4 /* LaititudeLongitudeVC.swift in Sources */,
 				9D4A8FF22472DBE400998DC4 /* AppDelegate.swift in Sources */,
+				9D4A901F2472E95D00998DC4 /* ResponseCell.swift in Sources */,
+				9D4A90152472E6E300998DC4 /* ResultVC.swift in Sources */,
 				9D4A8FF42472DBE400998DC4 /* SceneDelegate.swift in Sources */,
+				9D4A900C2472E28500998DC4 /* APIService.swift in Sources */,
+				9D4A90272472EB5500998DC4 /* HistoryCell.swift in Sources */,
+				9D4A900F2472E2D900998DC4 /* ISS.swift in Sources */,
+				9D4A90222472EAEB00998DC4 /* LocationRealm.swift in Sources */,
+				9D4A90172472E6FB00998DC4 /* CityVC.swift in Sources */,
+				9D4A90192472E8F400998DC4 /* Location.swift in Sources */,
+				9D4A90072472DFAC00998DC4 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +452,7 @@
 		};
 		9D4A90032472DBE800998DC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71FFAD529E95DB9AA45393DE /* Pods-ISS_Tracking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +471,7 @@
 		};
 		9D4A90042472DBE800998DC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65CB41697FB9D9C762D07AEE /* Pods-ISS_Tracking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
