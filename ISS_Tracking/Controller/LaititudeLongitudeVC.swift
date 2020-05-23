@@ -77,6 +77,7 @@ class LaititudeLongitudeVC: UIViewController {
         }
         
         performSegue(withIdentifier: "LLToResult", sender: location)
+        readDataFromRealm()
     }
     
 }

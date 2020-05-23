@@ -96,11 +96,17 @@ class ResultVC: UIViewController {
         backButton.setImage(#imageLiteral(resourceName: "back").withRenderingMode(.alwaysTemplate), for: .normal)
         backButton.tintColor = .white
         if CLLocationManager.locationServicesEnabled() {
+       
             if shouldUseCurrentLocation{
                 
                 let coordinate = fetchCurrentCoordinate()
+                
                 guard let lat = coordinate?.latitude else {return}
+               
                 guard let long = coordinate?.longitude else {return}
+                
+                let position = CLLocationCoordinate2D(latitude: lat, longitude: long)
+                self.mapView.camera = GMSCameraPosition.init(target: position, zoom: 5)
                 
                 APIService.shared.fetchISSPassTimes(withLatitude: lat, withLongitude: long) { (iss) in
                     guard let responses = iss.responses else {return}
@@ -131,7 +137,9 @@ class ResultVC: UIViewController {
     
     func fetchCurrentCoordinate() -> CLLocationCoordinate2D?{
         let currentLocation = locationManager.location
+     
         guard let coordinate = currentLocation?.coordinate else {return nil}
+        
         return coordinate
         
     }
